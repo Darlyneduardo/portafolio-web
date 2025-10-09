@@ -31,7 +31,7 @@ function Main() {
         <main className="main">
             <section id="hero" className="section hero">
                 <img 
-                    src="./img/darlyn.png" 
+                    src="/img/darlyn.png" 
                     alt="Foto de Darlyn Eduardo Carabali Mera" 
                     className="profile-image"
                     onError={(e) => {
@@ -136,7 +136,7 @@ function ProyectosSection() {
                     <article key={p.id} className={`card ${proyectoExpandido === p.id ? 'expanded' : ''}`}>
                         {p.imagen ? (
                             <img 
-                                src={`./img/${p.imagen}`} 
+                                src={`/${p.imagen}`} 
                                 alt={p.alt} 
                                 className="card-image"
                                 onError={(e) => {

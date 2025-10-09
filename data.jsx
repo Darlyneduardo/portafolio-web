@@ -7,7 +7,7 @@ export const proyectos = [
         descripcion: "Sistema integral para gestión de ventas y servicios técnicos", 
         enlace: "#", 
         tags:  ["React", "Python","PostgreSQL", "HTML5", "CSS3", "JavaScript"],
-        imagen: "tecnocolor.png",
+        imagen: "img/tecnocolor.png",
         alt: "Tecnocolor POS",
         detalles: {
             descripcionCompleta: "Sistema completo de gestión empresarial que incluye punto de venta, inventario, facturación electrónica, gestión de clientes y tienda en línea. Desarrollado con React para el frontend y Python para el backend, con base de datos PostgreSQL.",
@@ -30,7 +30,7 @@ export const proyectos = [
         descripcion: "Aplicación hecha para Linux y Windows para ciberseguridad con modelos de inteligencia artificial, capaz de generar código y recomendaciones de los pasos y procesos.", 
         enlace: "#", 
         tags: ["Python", "PostgreSQL","API REST", "IA locales"],
-        imagen: "ShadowPentAI.png",
+        imagen: "img/ShadowPentAI.png",
         alt: "ShadowPentAI",
         detalles: {
             descripcionCompleta: "Una herramienta de ciberseguridad con modelos de inteligencia artificial, capaz de generar código y recomendaciones de los pasos y procesos de ciberseguridad.",
@@ -53,7 +53,7 @@ export const proyectos = [
         descripcion: "Plataforma de gestión de cadenas de suministro sostenibles y el reciclaje con blockchain.",
         enlace: "#",
         tags: ["Blockchain", "Smart Contracts", "Supply Chain"],
-        imagen: "EcoChain.png",
+        imagen: "img/EcoChain.png",
         alt: "EcoChain",
         detalles: {
             descripcionCompleta: "EcoChain es una plataforma innovadora que utiliza tecnología blockchain para mejorar la transparencia y sostenibilidad en las cadenas de suministro y el reciclaje.",
@@ -74,7 +74,7 @@ export const proyectos = [
         descripcion: "Billetera digital para gestionar criptomonedas y tokens ecológicos.",
         enlace: "#",
         tags: ["Blockchain", "Wallet", "HTML", "CSS", "JavaScript", "Python"],
-        imagen: "EcoChain_2.png",
+        imagen: "img/EcoChain_2.png",
         detalles: {
             descripcionCompleta: "Billetera digital que permite gestionar criptomonedas y tokens ecológicos de manera segura y eficiente.",
             caracteristicas: [
@@ -94,14 +94,14 @@ export const habilidades = ["Python", "JavaScript", "HTML5", "React", "Node.js",
 
 export const certificados = [
        {
-        imagen: "./certificados/DARLYN_EDUARDO_CARABALI_MERA.PNG",
-        pdf: "./certificados/DARLYN_EDUARDO_CARABALI_MERA.PNG",
+        imagen: "/certificados/DARLYN_EDUARDO_CARABALI_MERA.PNG",
+        pdf: "/certificados/DARLYN_EDUARDO_CARABALI_MERA.PNG",
         nombre: "Certificado UNIBOTS"
     },
 
     {
-        imagen: "./certificados/web3_cert.PNG",
-        pdf: "./certificados/web3_cert.PNG",
+        imagen: "/certificados/web3_cert.PNG",
+        pdf: "/certificados/web3_cert.PNG",
         nombre: "Certificado web3"
     },
   
