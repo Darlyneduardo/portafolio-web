@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darlyn Eduardo Carabali Mera - Portafolio</title>
+    <link rel="icon" type="image/png" href="./img/darlynlogo.png">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="brand">Darlyn Eduardo Carabali Mera</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="hero" class="section hero">
+            <h2>Desarrollador Web Full Stack</h2>
+            <p>Construyo aplicaciones modernas, veloces y accesibles.</p>
+            <a href="#proyectos" class="button button-hero button-pulse">Ver proyectos</a>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="sobre-mi" class="section">
+            <div class="sobre-mi-container">
+                <h2>Sobre mí</h2>
+                <p>
+                    Soy Darlyn Eduardo Carabalí Mera, Técnico en Sistemas y Desarrollador Web Full Stack Junior, con más de 2 años de experiencia como freelance creando páginas y sistemas personalizados para negocios y emprendimientos.
+                    Me apasiona el desarrollo web integral —desde el diseño de interfaces hasta la programación del backend— y disfruto construir soluciones tecnológicas funcionales, seguras y adaptadas a las necesidades del usuario.
+                    Además, cuento con conocimientos en redes, mantenimiento de equipos, gestión de inventarios y atención al cliente, lo que me permite tener una visión completa del entorno tecnológico.
+                    Mi meta es seguir creciendo profesionalmente en el desarrollo de software y contribuir con proyectos innovadores que integren tecnología y sostenibilidad.
+                </p>
+            </div>
+
+            <div class="certificados-section">
+                <h3>Certificaciones</h3>
+                <div class="certificados-carousel">
+                    <div class="carousel-container">
+                        <!-- Los certificados se cargarán dinámicamente con JavaScript -->
+                    </div>
+                    <div class="carousel-dots">
+                        <!-- Los dots se cargarán dinámicamente con JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="proyectos" class="section">
+            <h2>Proyectos</h2>
+            <div class="grid">
+                <article class="card" data-proyecto-id="1">
+                    <img 
+                        src="./img/tecnocolor.png" 
+                        alt="Tecnocolor POS" 
+                        class="card-image"
+                        onerror="handleImageError(this)"
+                    />
+                    <div class="card-image-placeholder" style="display: none;">
+                        T
+                    </div>
+                    
+                    <h3>Tecnocolor/POS/web</h3>
+                    <p>Sistema integral para gestión de ventas y servicios técnicos</p>
+                    
+                    <div class="tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+
+                    <div class="proyecto-detalles" style="display: none;">
+                        <div class="detalle-seccion">
+                            <h4>Descripción completa</h4>
+                            <p>Sistema completo de gestión empresarial que incluye punto de venta, inventario, facturación electrónica, gestión de clientes y tienda en línea. Desarrollado con React para el frontend y Python para el backend, con base de datos PostgreSQL.</p>
+                        </div>
+
+                        <div class="detalle-seccion">
+                            <h4>Características principales</h4>
+                            <ul class="caracteristicas-list">
+                                <li>Punto de venta con código de barras</li>
+                                <li>Gestión completa de inventario</li>
+                                <li>Tienda en línea integrada</li>
+                                <li>Dashboard con reportes y estadísticas</li>
+                                <li>Sistema de usuarios y permisos</li>
+                                <li>el sistema se divide en (3) partes por separado cada uno con una funcion diferente pero el mismo objetivo la gestion y organizacion del establecimiento</li>
+                            </ul>
+                        </div>
+
+                        <div class="detalle-seccion">
+                            <h4>Tecnologías utilizadas</h4>
+                            <div class="tags">
+                                <span class="tag tag-tech">React</span>
+                                <span class="tag tag-tech">Python</span>
+                                <span class="tag tag-tech">PostgreSQL</span>
+                                <span class="tag tag-tech">HTML5</span>
+                                <span class="tag tag-tech">CSS3</span>
+                                <span class="tag tag-tech">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="button button-toggle">
+                        ▼ Ver más
+                    </button>
+                </article>
+
+                <article class="card" data-proyecto-id="2">
+                    <img 
+                        src="./img/ShadowPentAI.png" 
+                        alt="ShadowPentAI" 
+                        class="card-image"
+                        onerror="handleImageError(this)"
+                    />
+                    <div class="card-image-placeholder" style="display: none;">
+                        S
+                    </div>
+                    
+                    <h3>ShadowPentAI</h3>
+                    <p>aplicacion echa para linux y windows para ciber seguridad con modelos de inteligencia artificial, capas de generar codigo y recomendaciones de los pasos y procesos.</p>
+                    
+                    <div class="tags">
+                        <span class="tag">python</span>
+                        <span class="tag">posgreSQL</span>
+                        <span class="tag">API REST</span>
+                        <span class="tag">IA locales</span>
+                    </div>
+
+                    <div class="proyecto-detalles" style="display: none;">
+                        <div class="detalle-seccion">
+                            <h4>Descripción completa</h4>
+                            <p>una heramienta de ciber seguridad con modelos de inteligencia artificial, capas de generar codigo y recomendaciones de los pasos y procesos de ciberseguridad.</p>
+                        </div>
+
+                        <div class="detalle-seccion">
+                            <h4>Características principales</h4>
+                            <ul class="caracteristicas-list">
+                                <li>API REST completa</li>
+                                <li>heramientas de ciberseguridad</li>
+                                <li>Base de datos PostgreSQL</li>
+                                <li>generacion de codigo con modelos de inteligencia artificial locales</li>
+                            </ul>
+                        </div>
+
+                        <div class="detalle-seccion">
+                            <h4>Tecnologías utilizadas</h4>
+                            <div class="tags">
+                                <span class="tag tag-tech">python</span>
+                                <span class="tag tag-tech">API REST</span>
+                                <span class="tag tag-tech">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="button button-toggle">
+                        ▼ Ver más
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="habilidades" class="section">
+            <h2>Habilidades</h2>
+            <ul class="list-inline">
+                <li class="tag">Python</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">HTML5</li>
+                <li class="tag">React</li>
+                <li class="tag">Node.js</li>
+                <li class="tag">CSS</li>
+                <li class="tag">PostgreSQL</li>
+                <li class="tag">API REST</li>
+            </ul>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="experiencia" class="section">
+            <h2>Experiencia</h2>
+            <ul class="experience-list">
+                <li><strong>Tecnocolor</strong> — Desarrollador Web/Software (2022–2024): Desarrollo de un sistema integral para la gestión de ventas y servicios técnicos con tienda en línea.</li>
+                <li><strong>Empresa Y</strong> — Rol (2020–2022): breve descripción.</li>
+            </ul>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section id="contacto" class="section contact">
+            <h2>Contacto</h2>
+            <p>
+                Escríbeme a <a href="mailto:Darlyn2050@gmail.com">Darlyn2050@gmail.com</a> o Escríbeme al <a href="https://wa.me/573135632050" target="_blank" rel="noreferrer">WhatsApp</a>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <small>© <span id="current-year"></span> Darlyn Eduardo Carabali Mera — Todos los derechos reservados.</small>
+        <div class="footer-links">
+            <a href="https://github.com/Darlyneduardo" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="mailto:Darlyn2050@gmail.com">Email</a>
+            <a href="https://wa.me/573135632050" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Establecer año actual
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Función global para manejar errores de imagen
+        function handleImageError(img) {
+            window.portafolioJS.handleImageError(img);
+        }
+    </script>
+</body>
+</html>
