@@ -194,7 +194,7 @@ function Main({ hoveredProject }) {
             <section id="contacto" className="section contact" style={{ width: '100vw', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <h2>Contacto</h2>
                 <p>
-                    Escríbeme a <a href="mailto:Darlyn2050@gmail.com">Darlyn2050@gmail.com</a> o Escríbeme al <a href="https://wa.me/573135632050" target="_blank" rel="noreferrer">WhatsApp</a>.
+                    Escríbeme a <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">Darlyn2050@gmail.com</a> o Escríbeme al <a href="https://wa.me/573026058034" target="_blank" rel="noreferrer">WhatsApp</a>.
                 </p>
             </section>
         </main>
@@ -306,7 +306,7 @@ function Footer() {
             <div className="footer-links">
                 <a href="https://github.com/Darlyneduardo" target="_blank" rel="noreferrer">GitHub</a>
                 <a href="mailto:Darlyn2050@gmail.com">Email</a>
-                <a href="https://wa.me/573135632050" target="_blank" rel="noreferrer">WhatsApp</a>
+                <a href="https://wa.me/573026058034" target="_blank" rel="noreferrer">WhatsApp</a>
             </div>
         </footer>
     );
