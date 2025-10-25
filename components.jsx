@@ -305,7 +305,7 @@ function Footer() {
             <small>© {new Date().getFullYear()} Darlyn Eduardo Carabali Mera — Todos los derechos reservados.</small>
             <div className="footer-links">
                 <a href="https://github.com/Darlyneduardo" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="mailto:Darlyn2050@gmail.com">Email</a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">Email</a>
                 <a href="https://wa.me/573026058034" target="_blank" rel="noreferrer">WhatsApp</a>
             </div>
         </footer>
