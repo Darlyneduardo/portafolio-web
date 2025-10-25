@@ -138,7 +138,7 @@ export const habilidades = ["Python", "JavaScript", "HTML5", "React", "Node.js",
 
 export const certificados = [
     {
-        imagen: "/certificados/hackathon_skinnovation.png",
+        imagen: "/certificados/certificado_tatu_IA.png",
         pdf: "/certificados/hackathon_skinnovation.png",
         nombre: "Hackathon Equipo Retador – Skinnovation (Talento Tech Valle)",
         color: "#16a34a",
