@@ -140,7 +140,7 @@ export const certificados = [
     {
         imagen: "/certificados/certificado_tatu.png",
         pdf: "/certificados/certificado_tatu.png",
-        nombre: "Hackathon Equipo Retador – Skinnovation (Talento Tech Valle)",
+        nombre: "Hackathon Equipo Retador  Skinnovation (Talento Tech Valle)",
         color: "#16a34a",
         fecha: "16 y 17 de octubre de 2025",
         descripcion: "Participación destacada en la hackathon “Skinnovation” organizada por Talento Tech Valle, donde se desarrollaron soluciones tecnológicas innovadoras enfocadas en el análisis de piel mediante inteligencia artificial. Darlyn Eduardo Carabalí formó parte del equipo retador, aplicando conocimientos en desarrollo de software y diseño de interfaces centradas en el usuario."
