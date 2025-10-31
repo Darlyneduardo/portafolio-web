@@ -138,8 +138,8 @@ export const habilidades = ["Python", "JavaScript", "HTML5", "React", "Node.js",
 
 export const certificados = [
     {
-        imagen: "/certificados/certificado_tatu.png",
-        pdf: "/certificados/certificado_tatu.png",
+        imagen: "/certificados/certificado_tatu.PNG",
+        pdf: "/certificados/certificado_tatu.PNG",
         nombre: "Hackathon Equipo Retador  Skinnovation (Talento Tech Valle)",
         color: "#16a34a",
         fecha: "16 y 17 de octubre de 2025",

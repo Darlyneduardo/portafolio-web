@@ -76,9 +76,11 @@ function Main({ hoveredProject }) {
             }}>
                 <h2>Sobre mí</h2>
                 <p>
-                    Soy Darlyn Eduardo Carabalí Mera, Técnico en Sistemas y Desarrollador Web Full Stack con experiencia en el desarrollo de aplicaciones modernas, seguras y escalables para empresas y emprendimientos. He liderado y ejecutado proyectos de sistemas de gestión, tiendas en línea, plataformas de inventario y soluciones personalizadas, aplicando metodologías ágiles y mejores prácticas de desarrollo.<br/>
-                    Destaco por mi capacidad para analizar requerimientos, diseñar arquitecturas eficientes y entregar productos de alta calidad, integrando tecnologías como React, Node.js, Express, MongoDB, MySQL y herramientas de despliegue en la nube. Además, poseo habilidades en soporte técnico, redes, mantenimiento de equipos y atención al cliente, lo que me permite ofrecer soluciones integrales y adaptadas a cada necesidad.<br/>
-                    Mi objetivo es seguir creciendo profesionalmente, aportar innovación y contribuir al éxito de los proyectos en los que participo, combinando tecnología, creatividad y compromiso.
+                    Soy desarrollador Full Stack con experiencia en la creación de aplicaciones web y software
+                    personalizado utilizando React, Python, PostgreSQL y APIs REST. Me apasiona construir soluciones
+                    tecnológicas modernas, eficientes y seguras. Cuento con conocimientos en redes, bases de datos y
+                    mantenimiento de sistemas, lo que me permite abordar proyectos de forma integral. Y convertir los
+                    requerimientos del cliente en código escalable y funcional.
                 </p>
             </section>
 
