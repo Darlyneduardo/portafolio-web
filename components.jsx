@@ -86,7 +86,7 @@ function Main({ hoveredProject }) {
 
             <section id="hoja-de-vida" className="section" style={{ width: '100vw', display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 40 }}>
                 <h2>Hoja de Vida</h2>
-                <a href="./hoja-de-vida/eduardo-c-wb-full.pdf" target="_blank" rel="noopener noreferrer" style={{
+                     <a href="/hoja-de-vida/eduardo-c-wb-full.pdf" target="_blank" rel="noopener noreferrer" style={{
                     display: 'inline-block',
                     padding: '16px 32px',
                     background: 'linear-gradient(90deg, #9333ea 0%, #c084fc 100%)',
@@ -97,7 +97,9 @@ function Main({ hoveredProject }) {
                     textDecoration: 'none',
                     marginTop: 16,
                     boxShadow: '0 2px 12px rgba(147, 51, 234, 0.18)'
-                }}>Abrir Hoja de Vida (PDF)</a>
+                    }}>
+                    Abrir Hoja de Vida (PDF)
+                    </a>
             </section>
 
             <div className="section-divider"></div>
