@@ -207,6 +207,7 @@ function App() {
                         <div style={{display:'flex', gap:'18px', marginTop:'10px'}}>
                             <a href="https://github.com/Darlyneduardo" target="_blank" rel="noopener noreferrer" title="GitHub" style={{color:'#fff', fontSize:'1.7rem'}}><span role="img" aria-label="GitHub">🐙</span></a>
                             <a href="https://www.linkedin.com/in/darlyn-eduardo-carabali-mera-a301b9211/" target="_blank" rel="noopener noreferrer" title="LinkedIn" style={{color:'#0e76a8', fontSize:'1.7rem'}}><span role="img" aria-label="LinkedIn">💼</span></a>
+                            <a href="https://www.freelancer.com/u/darlyneduardo" target="_blank" rel="noopener noreferrer" title="Freelancer" style={{color:'#29b2fe', fontSize:'1.7rem'}}><span role="img" aria-label="Freelancer">🧑‍💻</span></a>
                         </div>
                     </div>
                 </section>
