@@ -163,8 +163,8 @@ function App() {
                 </section>
                 <section id="hoja-de-vida" style={{margin:'32px auto', textAlign:'center'}}>
                     <h2>Hoja de Vida</h2>
-                    <a href="/hoja-de-vida/eduardo-c-wb-full.pdf" target="_blank" rel="noopener noreferrer" className="button button-primary" style={{display:'inline-block',padding:'16px 32px',fontWeight:600,fontSize:'1.1rem',borderRadius:12,background:'linear-gradient(90deg,#9333ea 0%,#c084fc 100%)',color:'#fff',margin:'18px 0'}}>Descargar Hoja de Vida (PDF)</a>
-                    <iframe src="/hoja-de-vida/eduardo-c-wb-full.pdf" style={{width:'100%',maxWidth:'700px',height:'600px',border:'2px solid #9333ea',borderRadius:'12px',margin:'24px auto',background:'#fff'}} title="Hoja de Vida PDF" />
+                    <a href="/eduardo-c-wb-full.pdf" target="_blank" rel="noopener noreferrer" className="button button-primary" style={{display:'inline-block',padding:'16px 32px',fontWeight:600,fontSize:'1.1rem',borderRadius:12,background:'linear-gradient(90deg,#9333ea 0%,#c084fc 100%)',color:'#fff',margin:'18px 0'}}>Descargar Hoja de Vida (PDF)</a>
+                    <iframe src="/eduardo-c-wb-full.pdf" style={{width:'100%',maxWidth:'700px',height:'600px',border:'2px solid #9333ea',borderRadius:'12px',margin:'24px auto',background:'#fff'}} title="Hoja de Vida PDF" />
                 </section>
                 <section id="habilidades" style={{margin:'32px auto', maxWidth:'540px', background:'rgba(30,20,50,0.97)', color:'#fff', borderRadius:'22px', boxShadow:'0 4px 24px 0 rgba(147,51,234,0.13), 0 2px 12px rgba(0,0,0,0.13)', padding:'32px 36px 24px 36px', border:'2px solid #9333ea', fontSize:'1.08rem', backdropFilter:'blur(14px)', textAlign:'center', zIndex:10}}>
                     <h2 style={{marginBottom:'18px'}}>Habilidades</h2>
